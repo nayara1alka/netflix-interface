@@ -1,0 +1,165 @@
+:root{
+    --red:#e50914;
+    --black:#141414;
+}
+
+/*=== RESET ===*/
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+    background: var(--black);
+    color: #fff;
+    font-family: 'Arial';  
+}
+ul{
+    list-style-type: none;
+}
+/*=== CABECALHO ===*/
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color: var(--red);
+    font-family:'arial';
+    font-size: 45px;
+}
+.menu-ul{
+    display: flex;
+}
+.itens-menu a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: #aaa;
+}
+.itens-menu a:hover{
+    color: #fff;
+}
+/*=== SESSAO PRINCIPAL ===*/
+.container{
+    margin-left: 20px;
+}
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(../img/filme-como-eu-era-antes-de-voce.jpg);
+    background-size: cover;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+    margin-bottom: 50px;
+}
+.filme-principal .container{
+    width: 70%;
+}
+.titulo{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+.botao{
+    background: rgba(0,0,0, .50);
+    border: none;
+    color: #fff;
+    padding: 20px 35px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: 2s ease all;
+}
+.botao:hover{
+    background: #fff;
+    color: black;
+}
+.botao i{
+    margin-right: 10px;
+    font-size: 19px;
+}
+.descricao{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+/*=== SESSAO CARROSEL ===*/
+.titulo-2{
+    color: var(--red);
+    font-family:'arial';
+    font-size: 30px;
+    margin: 20px 0 20px 15px;
+    text-decoration: underline #b68e8e 3px;
+}
+.carrosel-filmes{
+    margin-top: 5px;
+}
+/*=== RODAPÉ ===*/
+.logo-rodape{
+    text-align: center;
+    margin: 35px 0 15px 0;
+}
+/*===========   FIM PAGINA PRINCIPAL ===========*/
+/*======== INICIO PÁGINA DE INFORMAÇOES ========*/
+
+/*==== SESSAO PRINCIPAL ====*/
+#mais-informacões .container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.info-capa-img{
+   max-width: 250px;
+   border-radius: 10px;
+}
+.info-descricao{
+    width: 75%;
+    margin-left: 50px;
+}
+.info-descricao .titulo-2{
+    color: #fff;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+    text-decoration: none;
+}
+.info-descricao-lista{
+    display: flex;
+}
+.info-descricao-lista li{
+    margin-right: 15px;
+}
+.sinopse{
+    margin-top: 30px;
+    max-width: 700px;
+}
+.sinopse .titulo-2{
+    font-size: 20px;
+}
+/*====== ELENCO PRINCIPAL ======*/
+#elenco-principal{
+    margin-top: 50px;
+}
+.elenco-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+.info-img{
+    width: 100%;
+    height: 170px;
+   border-radius: 10px;
+}
+.name-actors{
+    font-size: 16px;
+    color: #000;
+    padding: 5px;
+}
+.name-actors:last-child{
+    font-weight: normal;
+}
+.elenco-descricao{
+   background-color: #fff;
+   border-radius: 10px;
+   margin: 15px;
+   max-width: 170px;
+}

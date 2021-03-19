@@ -1,0 +1,51 @@
+@media screen and (max-width: 700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .botao{
+        margin-top: 5px;
+        width: 300px;
+    }
+    .filme-principal{
+        background-position: 50%;
+    }
+    .box-img{
+        max-width: 280px;
+        margin: 0 auto;
+     }
+}
+
+@media screen and (min-width: 1000px){
+    .descricao{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .titulo{
+        font-size: 30px;
+    }
+}
+/*===========   FIM PAGINA PRINCIPAL ===========*/
+/*======== INICIO PÁGINA DE INFORMAÇOES ========*/
+
+/*==== SESSAO PRINCIPAL ====*/
+@media screen and (max-width:800px){
+    #mais-informacões .container{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+    }
+    .info-descricao{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .info-descricao {
+        text-align: center;
+    }
+    .info-descricao-lista{
+        justify-content: center;
+    }
+
+}
